@@ -153,7 +153,7 @@ export default {
           app.get_category_percent(app.total);
         }
       };
-      window.hinterXR.open('GET', "http://jenkins_docker:5000/load?name=varun&month=" + app.current_month, true);
+      window.hinterXR.open('GET', "http://13.59.234.163:5000/load?name=varun&month=" + app.current_month, true);
       window.hinterXR.send();
     },
     get_current_month(step){

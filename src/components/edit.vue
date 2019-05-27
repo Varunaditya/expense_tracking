@@ -101,7 +101,7 @@
               }
             }
           };
-          window.hinterXR.open('GET', "http://jenkins_docker:5000/delete?category=" +
+          window.hinterXR.open('GET', "http://13.59.234.163:5000/delete?category=" +
             app.category +
             "&date=" +
             app.og_db_date + "&price=" +
@@ -110,7 +110,7 @@
           window.hinterXR.send();
         },
         update_transaction(){
-          fetch("http://jenkins_docker:5000/update", {
+          fetch("http://13.59.234.163:5000/update", {
             method: 'POST',
             headers: {
               'Accept': 'application/json',

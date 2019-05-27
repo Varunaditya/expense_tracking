@@ -62,7 +62,7 @@
               app.transactions = response;
             }
           };
-          window.hinterXR.open('GET', "http://jenkins_docker:5000/transactions?category=" + app.category + "&month=" + app.current_month, true);
+          window.hinterXR.open('GET', "http://13.59.234.163:5000/transactions?category=" + app.category + "&month=" + app.current_month, true);
           window.hinterXR.send();
         },
         get_current_month(step){

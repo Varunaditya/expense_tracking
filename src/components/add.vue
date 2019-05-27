@@ -62,7 +62,7 @@
       },
       methods: {
         add_transaction(){
-          fetch("http://jenkins_docker:5000/add", {
+          fetch("http://13.59.234.163:5000/add", {
             method: 'POST',
             headers: {
               'Accept': 'application/json',
